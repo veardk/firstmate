@@ -1,0 +1,28 @@
+ok - real herdr E2E: with one 'firstmate' workspace and no herdr parent, a crewmate still lands in this home's own workspace without stealing focus
+ok - real herdr E2E: the staged worker command actually executes after the pane environment is established
+ok - real herdr E2E: the normal unique-label path is unchanged when the launcher's own pane identifies the workspace
+ok - real herdr E2E: presentation spaces still create the isolated child workspace and bind it under the launcher's exact parent, without stealing focus
+ok - real herdr E2E: with two 'firstmate' workspaces, a worker spawned from inside the second one lands in that exact workspace
+ok - real herdr E2E: the duplicate-labeled sibling workspace is left entirely untouched and focus is preserved
+ok - real herdr E2E: with a duplicated home label, a projected worker still hangs off the launcher's exact workspace and the sibling stays untouched
+ok - real herdr E2E: an ambiguous home label with no launcher identity refuses before any worker endpoint exists
+ok - real herdr E2E: a launcher pane that no longer exists refuses before any worker endpoint exists
+ok - real herdr E2E: a secondmate launching its own worker gets the same exact-workspace guarantee, and its same-labeled sibling is untouched
+ok - real herdr E2E: a --secondmate launch still stands up that secondmate's own workspace instead of inheriting the launcher's
+ok - real herdr E2E: with an empty launch-env allowlist the worker sees its pane setup, and the task marker persists in the pane shell after exit
+not ok - the traced secondmate command never executed
+export GOTMPDIR=/tmp/fm-lwsm3/gotmp
+export COMPACT_ADVISER_DISABLE=1
+export TRACEPARENT=00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01
+
+secondmate-home-3 on  main [?]
+❯ export GOTMPDIR=/tmp/fm-lwsm3/gotmp
+
+secondmate-home-3 on  main [?]
+❯ export COMPACT_ADVISER_DISABLE=1export TRACEPARENT=00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01. '/tmp/fm-l
+wsm3+956e444e65e666925d7ac3fc7e2cf98e8ea0f304f1f0dd6bd0f5279385a47f0e/launch.s1791571053.32315.4540.sh'
+export: not valid in this context: /tmp/fm-lwsm3+956e444e65e666925d7ac3fc7e2cf98e8ea0f304f1f0dd6bd0f5279385a47f0e/launch
+.s1791571053.32315.4540.sh
+
+secondmate-home-3 on  main [?]
+❯
