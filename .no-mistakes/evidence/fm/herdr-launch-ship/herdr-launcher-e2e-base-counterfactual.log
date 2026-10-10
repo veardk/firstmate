@@ -1,0 +1,33 @@
+ok - real herdr E2E: with one 'firstmate' workspace and no herdr parent, a crewmate still lands in this home's own workspace without stealing focus
+not ok - the spawned command never executed; pre-launch exports must not merge with the staged source line
+--- got ---
+treehouse get
+
+scratch-project on  master
+❯ treehouse get
+A new version of treehouse is available: v2.3.0 → v3.1.2
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Entered worktree at ~/.treehouse/scratch-project-071c2f/1/scratch-project. Type 'exit' to return.
+cd -- '/Users/leivik/.treehouse/scratch-project-071c2f/1/scratch-project'
+
+scratch-project on  HEAD (abfb0b5)
+❯ cd -- '/Users/leivik/.treehouse/scratch-project-071c2f/1/scratch-project'
+
+scratch-project on  HEAD (abfb0b5)
+❯ export GOTMPDIR=/tmp/fm-uniqA/gotmp
+export COMPACT_ADVISER_DISABLE=1
+export FM_TASK_ID=uniqA
+
+scratch-project on  HEAD (abfb0b5)
+❯ export COMPACT_ADVISER_DISABLE=1
+
+scratch-project on  HEAD (abfb0b5)
+❯ export FM_TASK_ID=uniqA. '/tmp/fm-uniqA+14f891e2a342a5e8e7a75cffcd49b82b62953952deae881aa99ca43e1f7fd9a9/launch.s17915
+98855.56186.4329.sh'
+export: not valid in this context: /tmp/fm-uniqA+14f891e2a342a5e8e7a75cffcd49b82b62953952deae881aa99ca43e1f7fd9a9/launch
+.s1791598855.56186.4329.sh
+
+scratch-project on  HEAD (abfb0b5)
+❯

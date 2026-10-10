@@ -1,0 +1,30 @@
+treehouse get
+
+proj on  master
+❯ treehouse get
+A new version of treehouse is available: v2.3.0 → v3.1.2
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Entered worktree at ~/.treehouse/proj-605b5e/1/proj. Type 'exit' to return.
+cd -- '/Users/leivik/.treehouse/proj-605b5e/1/proj'
+
+proj on  HEAD (956bf74)
+❯ cd -- '/Users/leivik/.treehouse/proj-605b5e/1/proj'
+
+proj on  HEAD (956bf74)
+❯ export GOTMPDIR=/tmp/fm-clA/gotmp
+export COMPACT_ADVISER_DISABLE=1
+export FM_TASK_ID=clA
+
+proj on  HEAD (956bf74)
+❯ export COMPACT_ADVISER_DISABLE=1
+
+proj on  HEAD (956bf74)
+❯ export FM_TASK_ID=clA. '/tmp/fm-clA+1d5a99939545c305ecb26baaaaf5193c06733514b36b467f5399dafc44cc4f75/launch.s179159931
+6.83607.31950.sh'
+export: not valid in this context: /tmp/fm-clA+1d5a99939545c305ecb26baaaaf5193c06733514b36b467f5399dafc44cc4f75/launch.s
+1791599316.83607.31950.sh
+
+proj on  HEAD (956bf74)
+❯
